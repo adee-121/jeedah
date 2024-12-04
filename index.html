@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>صفحة اختبار</title>
+    <title>صفحات متحركة</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
-    <h1>مرحبًا بك في صفحتي!</h1>
-    <p>إذا كنت ترى هذا النص، فإن الكود يعمل بشكل صحيح!</p>
+    <!-- صفحة البداية -->
+    <section id="home" class="page animate__animated animate__fadeIn">
+        <h1>مرحبًا بك في موقعنا</h1>
+        <p>صفحات جذابة مع تأثيرات متحركة.</p>
+        <a href="#about" class="btn">اكتشف المزيد</a>
+    </section>
+
+    <!-- صفحة "من نحن" -->
+    <section id="about" class="page animate__animated animate__fadeInUp">
+        <h2>من نحن</h2>
+        <p>نحن نقدم أفضل الخدمات مع تصميمات جذابة تلبي احتياجاتك.</p>
+        <a href="#services" class="btn">خدماتنا</a>
+    </section>
+
+    <!-- صفحة "الخدمات" -->
+    <section id="services" class="page animate__animated animate__fadeInRight">
+        <h2>خدماتنا</h2>
+        <ul>
+            <li>تصميم مواقع احترافية</li>
+            <li>تطوير تطبيقات ويب</li>
+            <li>تسويق رقمي</li>
+        </ul>
+        <a href="#contact" class="btn">اتصل بنا</a>
+    </section>
+
+    <!-- صفحة "اتصل بنا" -->
+    <section id="contact" class="page animate__animated animate__fadeInLeft">
+        <h2>اتصل بنا</h2>
+        <p>نحن هنا لمساعدتك. تواصل معنا الآن.</p>
+        <a href="#home" class="btn">العودة إلى البداية</a>
+    </section>
 </body>
 </html>
