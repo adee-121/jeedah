@@ -1,43 +1,84 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>صفحات متحركة</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>محل مساج في جدة</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .offer {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px 0;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .offer h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #4CAF50;
+        }
+        .offer p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <!-- صفحة البداية -->
-    <section id="home" class="page animate__animated animate__fadeIn">
-        <h1>مرحبًا بك في موقعنا</h1>
-        <p>صفحات جذابة مع تأثيرات متحركة.</p>
-        <a href="#about" class="btn">اكتشف المزيد</a>
-    </section>
+    <header>
+        <h1>أهلاً بك في محل المساج في جدة</h1>
+        <p>أفضل الخدمات والعروض المميزة للاسترخاء والراحة</p>
+    </header>
 
-    <!-- صفحة "من نحن" -->
-    <section id="about" class="page animate__animated animate__fadeInUp">
-        <h2>من نحن</h2>
-        <p>نحن نقدم أفضل الخدمات مع تصميمات جذابة تلبي احتياجاتك.</p>
-        <a href="#services" class="btn">خدماتنا</a>
-    </section>
+    <div class="container">
+        <div class="offer">
+            <h2>عرض خاص لمدة محدودة</h2>
+            <p>احصل على جلسة مساج استرخائي لمدة ساعة بـ 150 ريال فقط!</p>
+            <p>يشمل: زيوت عطرية طبيعية، وجلسة بخار مجانية.</p>
+        </div>
 
-    <!-- صفحة "الخدمات" -->
-    <section id="services" class="page animate__animated animate__fadeInRight">
-        <h2>خدماتنا</h2>
-        <ul>
-            <li>تصميم مواقع احترافية</li>
-            <li>تطوير تطبيقات ويب</li>
-            <li>تسويق رقمي</li>
-        </ul>
-        <a href="#contact" class="btn">اتصل بنا</a>
-    </section>
+        <div class="offer">
+            <h2>عرض الاشتراك الشهري</h2>
+            <p>اشتراك شهري بـ 800 ريال يشمل 8 جلسات مساج متنوعة.</p>
+            <p>خيارات بين المساج العلاجي، الاسترخائي، والتايلاندي.</p>
+        </div>
 
-    <!-- صفحة "اتصل بنا" -->
-    <section id="contact" class="page animate__animated animate__fadeInLeft">
-        <h2>اتصل بنا</h2>
-        <p>نحن هنا لمساعدتك. تواصل معنا الآن.</p>
-        <a href="#home" class="btn">العودة إلى البداية</a>
-    </section>
+        <div class="offer">
+            <h2>خدمات إضافية</h2>
+            <p>جلسات تقشير الجسم والعناية بالبشرة بأسعار تنافسية.</p>
+            <p>استمتع بأفضل تجربة استرخاء في جدة!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 محل مساج في جدة | للتواصل: 0501234567</p>
+    </footer>
 </body>
 </html>
